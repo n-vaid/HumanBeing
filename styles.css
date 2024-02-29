@@ -149,11 +149,12 @@ h1 {
 
 .label {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   text-align: center;
   font-weight: 600;
-  font-size: 50px;
-  margin-top: 10px;
+  font-size: 200%;
+  margin-top: 20px;
 }
 
 .belowText {
@@ -262,13 +263,15 @@ ul {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    margin-right: 0;
+    padding-right: 0;
     /* margin-bottom: 80px;
     height: 100%;
     width: 50%;
     padding: 0; */
 
     width: 60%;
-    padding-left: 30px;
+    padding-left: 0%;
   }
 
   .box {
@@ -278,9 +281,10 @@ ul {
 
   .label {
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+
     font-size: 200%;
   }
 
